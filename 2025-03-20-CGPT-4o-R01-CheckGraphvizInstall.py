@@ -4,6 +4,9 @@ import subprocess
 import platform
 import sys
 
+!cd "D:\Dropbox\~p\Projects\Python\Packages"
+
+# Check if Graphviz is installed and in PATH
 def check_dot_in_path():
     dot_path = shutil.which("dot")
     if dot_path:
